@@ -64,13 +64,13 @@ class Calculator {
 
     updateDisplay(){
         this.currentOperandTextElement.innerText = this.currentOperand
-        if(this.operation != null){
+        /*if(this.operation != null){
             this.previousOperandTextElement = 
                 `${this.previousOperandTextElement} ${this.operation}`
-        } else {
+        } else {*/
             // this.previousOperandTextElement.innerText = ''
-            this.previousOperandTextElement.innerText = this.previousOperand
-        }
+        this.previousOperandTextElement.innerText = this.previousOperand
+        //}
     }
 
 }
